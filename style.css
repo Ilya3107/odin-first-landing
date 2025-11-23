@@ -99,3 +99,48 @@ a:visited {
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
     background: linear-gradient(135deg, #5f8cff, #7edbff);
 }
+/*  */
+main{
+    background-color: #e5e7eb;
+}
+.main_imformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 140px;
+}
+.main_information_title{
+    padding: 70px 0px;
+}
+.main_information_title h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 600;
+}
+.main_information_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.main_information_item{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+    ;
+    flex-direction: column;
+}
+.information_item_img{
+    margin: 0 auto;
+    
+}
+.information_item_img img{
+border: none;
+    border-radius: 14px;
+}
+.information_item_desk{
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;;
+}
